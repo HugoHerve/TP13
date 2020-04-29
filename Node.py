@@ -16,3 +16,6 @@ class Node:
         self.__right = var
     def setLeft(self, var):
         self.__left = var
+
+    def __str__(self):
+        return str(self.__val)
